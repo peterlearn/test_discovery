@@ -87,6 +87,8 @@ github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRW
 github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
 github.com/peterlearn/kratos v0.0.0-20221012091122-7ea1e7329cf5 h1:0etaHty4SFUMN9ASE/wtFh4FrOCVS7xLuEIh3407HTY=
 github.com/peterlearn/kratos v0.0.0-20221012091122-7ea1e7329cf5/go.mod h1:rjcJc5+yl/HwvRBZBNAHgPCiOsv0qoIBSSPbE3cQXU8=
+github.com/peterlearn/kratos v0.0.0-20221012095050-43e5fc7ba680 h1:w1MQok+hJj0UIRmjVQTiUQVW8Ay8zh6wJ4ZG6Ifilj4=
+github.com/peterlearn/kratos v0.0.0-20221012095050-43e5fc7ba680/go.mod h1:rjcJc5+yl/HwvRBZBNAHgPCiOsv0qoIBSSPbE3cQXU8=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
