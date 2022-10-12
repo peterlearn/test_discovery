@@ -1,0 +1,33 @@
+version: "2"
+
+volumes:
+  test_data:
+
+services:
+  discovery:
+    image: pll/discovery #docker build -t pll/discovery .
+    container_name: discovery
+    ports:
+      - "7171"
+  scene:
+    image: pll/scene #docker build -t pll/scene
+    container_name: scene
+    depends_on:
+      - discovery
+    ports:
+      - "8888"
+    environment:
+      DISCOVERY: "on"
+      DISCOVERY_NAMESPACE: "xy3-1"
+      DISCOVERY_NODES: discovery:7171
+  coordinator:
+    image: pll/coordinator #docker build -t pll/coordinator
+    container_name: coordinator
+    depends_on:
+      - discovery
+    ports:
+      - "8888"
+    environment:
+      DISCOVERY: "on"
+      DISCOVERY_NAMESPACE: "xy3-1"
+      DISCOVERY_NODES: discovery:7171
