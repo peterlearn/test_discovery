@@ -10,6 +10,6 @@ COPY --from=build /app/building/dist/bin/discovery /app/bin/
 # Copy from local build
 #ADD  dist/ /app/
 ENV  LOG_DIR    /app/log
-EXPOSE 7171
+EXPOSE 8888
 WORKDIR /app/
 CMD  /app/bin/discovery
